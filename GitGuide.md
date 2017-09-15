@@ -6,6 +6,15 @@ you also have to understand the workflow of git, and so I reccommend checking ou
 understanding of what it means to stage, commit, and to push our code.
 
 ```
+git init
+```
+Initialize git in your current working directory. This directory will be considered the
+root of your repository, and any directories above it in the directory tree will be considered
+outside of the git repository. I.E, if you used git init in the directory "/home/root/Desktop/my_folder",
+then anything created inside "my_folder" will be inside the repository, while anything in the "Desktop"
+folder will be outside of the repository.
+
+```
 git clone url
 ```
 Clones a git repository from "url" into the current working directory. This is often to
