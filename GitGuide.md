@@ -64,6 +64,12 @@ git commit -m "message"
 Same as the "git commit" command except that it doesn't prompt you with your default text editor for
 a commit message, you give it the message in the command. Make sure to include the quotation marks.
 
+```
+git log
+```
+Prints out the repository's history of commits to the terminal, along with their commit messages, author
+details, and time of the commit.
+
 
 # TERMS TO KNOW:
 - Working Directory = The stuff on your computer you've been doing that you have staged or commited yet.
