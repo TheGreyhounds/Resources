@@ -46,6 +46,12 @@ rmdir directory
 ```
 ReMoves the DIRectory "directory" from the current working directory. "directory" must be empty to use this command.
 
+```
+rm -i file
+```
+ReMoves "file" from the current directory after prompting the user to type "y" to delete, or "n" to cancel deletion.
+Note, I ONLY want you to use this command with the "-i" option. It's much safer that way, trust me.
+
 
 # TERMS:
 - Directory = A location in the computer file system, which may be empty, or contain other directories or files.
